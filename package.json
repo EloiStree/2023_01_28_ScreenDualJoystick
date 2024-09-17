@@ -1,0 +1,23 @@
+
+{                                                                                
+  "name": "be.elab.dualscreenstick",                              
+  "displayName": "Dual Stick Screen",                        
+  "version": "0.0.1",                         
+  "unity": "2018.1",                             
+  "unityRelease": "",                             
+  "description": "This tool allows to drag and drop two sticks on a device screen and turn  it to four float axis from the Input Action Reference of Unity.",                         
+  "keywords": ["Script","Tool"],                       
+  "dependencies":{},     
+  "relatedPackages":{},     
+  "samples" : [],     
+  "author" : {
+"name":"",
+"mail":"",
+"url":""},     
+  "repository":{
+"type":"Git",
+"url":"https://github.com/EloiStree/2023_01_28_ScreenDualJoystick.git",
+"footprint":"",
+"revision":""},     
+  "category": "Script"                   
+} 
