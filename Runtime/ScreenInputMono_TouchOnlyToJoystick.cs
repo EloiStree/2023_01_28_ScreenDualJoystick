@@ -40,7 +40,8 @@ public class ScreenInputMono_TouchOnlyToJoystick : MonoBehaviour
         m_screenWidth = Screen.width;
         m_screenHalfWidth = m_screenWidth / 2;
         m_radiusPixelToGeneratePercent = m_screenWidth * m_widthPercentOfRadius;
-
+        if (Touchscreen.current==null ||  Touchscreen.current.touches.Count <= 0)
+            return;
         m_fingerCount = Touchscreen.current.touches.Count;
         for ( int i = 0; i < m_fingers.Length; i++)
         {
